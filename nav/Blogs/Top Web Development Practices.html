@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Web Development Practices</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <nav class="bg-white shadow-md w-full z-10"></nav>
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-blue-900">WGTechSol</a>
+            
+            <!-- Navbar Links -->
+            <div class="hidden md:flex space-x-4">
+        <a href="index.html" class="text-sky-500 dark:text-sky-400">Home</a>
+        <a href="about.html" class="text-sky-500 dark:text-sky-400">About</a>
+        <a href="portfolio.html" class="text-sky-500 dark:text-sky-400">Our Portfolio</a>
+        <a href="product.html" class="text-sky-500 dark:text-sky-400">Our Product</a>
+        <a href="blog.html" class="text-sky-500 dark:text-sky-400">Our Blogs</a>
+         <a href="contact.html" class="text-sky-500 dark:text-sky-400">contact us</a>
+        <div class="flex -space-x-2 overflow-hidden">
+            <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+        </div>
+
+    </nav>
+    <section class="mb-16">
+        <!-- Blog Header with Background Image -->
+        <div class="relative h-80 bg-cover bg-center" style="background-image: url('assets/blog-header.jpg');">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                <h1 class="text-4xl font-bold text-white">Top Web Development Practices</h1>
+            </div>
+        </div>
+      
+        <!-- Blog Content -->
+        <div class="container mx-auto mt-8 px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+                <!-- Left Section: Blog Details -->
+                <div class="lg:col-span-1">
+                    <h2 class="text-3xl font-semibold text-gray-800 mb-4">1. Use Semantic HTML</h2>
+                    <p class="text-gray-600 mb-6">Semantic HTML helps in improving accessibility and SEO. By using meaningful tags, you enhance the structure of your web pages, making it easier for search engines to understand your content.</p>
+                    <img src="assets/semantic-html.jpg" alt="Semantic HTML" class="w-full h-64 object-cover mb-4 rounded-lg">
+                    <button onclick="toggleContent(this)" class="mt-4 flex items-center text-blue-500 hover:text-blue-700">
+                        <span>Read More</span>
+                        <svg class="w-5 h-5 ml-2 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="hidden mt-4 text-gray-600">
+                        <p>Using semantic tags like <code>&lt;header&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code> not only enhances your HTML structure but also provides better context for users with screen readers.</p>
+                    </div>
+
+                    <h2 class="text-3xl font-semibold text-gray-800 mb-4">2. Optimize for Performance</h2>
+                    <p class="text-gray-600 mb-6">Performance optimization is essential for providing a seamless user experience. This includes minimizing HTTP requests, optimizing images, and leveraging browser caching.</p>
+                    <img src="assets/performance-optimization.jpg" alt="Performance Optimization" class="w-full h-64 object-cover mb-4 rounded-lg">
+                    <button onclick="toggleContent(this)" class="mt-4 flex items-center text-blue-500 hover:text-blue-700">
+                        <span>Read More</span>
+                        <svg class="w-5 h-5 ml-2 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="hidden mt-4 text-gray-600">
+                        <p>Consider using tools like Google PageSpeed Insights to analyze your site's speed and get suggestions on how to improve load times.</p>
+                    </div>
+                </div>
+
+                <!-- Right Section: Blog Details -->
+                <div class="lg:col-span-1">
+                    <h2 class="text-3xl font-semibold text-gray-800 mb-4">3. Responsive Design</h2>
+                    <p class="text-gray-600 mb-6">With the variety of devices available today, responsive design is crucial. Using CSS media queries, you can create a site that adapts to different screen sizes and orientations.</p>
+                    <img src="assets/responsive-design.jpg" alt="Responsive Design" class="w-full h-64 object-cover mb-4 rounded-lg">
+                    <button onclick="toggleContent(this)" class="mt-4 flex items-center text-blue-500 hover:text-blue-700">
+                        <span>Read More</span>
+                        <svg class="w-5 h-5 ml-2 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="hidden mt-4 text-gray-600">
+                        <p>Responsive frameworks like Bootstrap or Flexbox can simplify the process of creating fluid layouts that look good on all devices.</p>
+                    </div>
+
+                    <h2 class="text-3xl font-semibold text-gray-800 mb-4">4. Regularly Update Your Content</h2>
+                    <p class="text-gray-600 mb-6">Keeping your website content fresh and updated is vital for SEO and user engagement. Regular updates encourage return visits and improve your site's ranking.</p>
+                    <img src="assets/update-content.jpg" alt="Update Content" class="w-full h-64 object-cover mb-4 rounded-lg">
+                    <button onclick="toggleContent(this)" class="mt-4 flex items-center text-blue-500 hover:text-blue-700">
+                        <span>Read More</span>
+                        <svg class="w-5 h-5 ml-2 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="hidden mt-4 text-gray-600">
+                        <p>Utilizing a content management system (CMS) can make the process of updating your website's content easier and more efficient.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <script>
+        function toggleContent(button) {
+            const content = button.nextElementSibling;
+            content.classList.toggle('hidden');
+            const arrow = button.querySelector('svg');
+            arrow.classList.toggle('rotate-180');
+        }
+    </script>
+</body>
+</html>
