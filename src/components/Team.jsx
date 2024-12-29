@@ -19,12 +19,14 @@ const Team = () => {
         "Passionate about creating responsive and interactive web experiences.",
     },
     {
-      name: "Bharti",
-      role: "Backend Developer / Team Manager",
-      img: "./images/bharti.jpeg",
+      name: "Javeria",
+      role: "Director / MERN Stack Developer ",
+      img: "./images/jaweriya mern.jpeg",
       skills:
-        "Php, Laravel, jQuery, SQL, C#, Angular, .Net, WordPress theme development",
-      intro: "Experienced in building robust backend systems using Laravel.",
+        "HTML, CSS, Bootstrap, JavaScript, Python, React.js, Computer Vision, Machine Learning, Data Annotation, MS Office, Visual Studio, Jupyter Notebook",
+      intro:
+        "Front end developer experienced in computer vision and machine learning projects.",
+
     },
     {
       name: "Hifsa Akram",
@@ -52,13 +54,12 @@ const Team = () => {
         "Designing web and mobile apps, and creating brand assets from scratch.",
     },
     {
-      name: "Javeria",
-      role: "Director / MERN Stack Developer ",
-      img: "./images/jaweriya mern.jpeg",
+      name: "Bharti",
+      role: "lead Backend Developer",
+      img: "./images/bharti.jpeg",
       skills:
-        "HTML, CSS, Bootstrap, JavaScript, Python, React.js, Computer Vision, Machine Learning, Data Annotation, MS Office, Visual Studio, Jupyter Notebook",
-      intro:
-        "Front end developer experienced in computer vision and machine learning projects.",
+        "Php, Laravel, jQuery, SQL, C#, Angular, .Net, WordPress theme development",
+      intro: "Experienced in building robust backend systems using Laravel.",
     },
     {
       name: "Almas Naseem",
