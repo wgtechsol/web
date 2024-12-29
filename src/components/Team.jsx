@@ -52,8 +52,8 @@ const Team = () => {
         "Designing web and mobile apps, and creating brand assets from scratch.",
     },
     {
-      name: "Jaweriya",
-      role: "MERN Stack Developer",
+      name: "Javeria",
+      role: "Director / MERN Stack Developer ",
       img: "./images/jaweriya mern.jpeg",
       skills:
         "HTML, CSS, Bootstrap, JavaScript, Python, React.js, Computer Vision, Machine Learning, Data Annotation, MS Office, Visual Studio, Jupyter Notebook",
